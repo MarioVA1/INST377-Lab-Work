@@ -118,6 +118,9 @@ Form Styles
     Rules may combine in unexpected ways - remember that the LAST thing written in this file will have "priority"
     And will be what displays in your client
   */
+
+
+
   
   .box {
     background-color: rgba(239, 239, 239, 0.4);
@@ -274,6 +277,15 @@ Form Styles
     /* Pick a good background colour for your hover pseudoclass */
   }
   
+  /* MAP STYLES */
+
+  #map {
+    display: block;
+    width: 400px;
+    height: 380px;
+    border: 2px dashed rgb(99,99,99);
+    margin-bottom: 1rem;
+  }
   
   
   form input {
