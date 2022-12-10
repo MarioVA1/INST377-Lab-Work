@@ -79,7 +79,7 @@ function filterList(list, filterInputValue) {
     if (!item.name) { return; }
     const lowerCaseName = item.name.toLowerCase();
     const lowerCaseQuery = filterInputValue.toLowerCase();
-    return lowerCaseName.includes(lowerCaseQuery);
+    lowerCaseName.includes(lowerCaseQuery);
   });
 }
 
